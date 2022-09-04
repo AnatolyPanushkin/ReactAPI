@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.CustomHeader{
+    display: flex;
+    justify-content: left;
+      
+    background-color: #f1d63a;
+      
+    padding-left: 30px;
+    border-bottom: solid black 1px;
+  }
+
+.Slidebw{
+  position: relative;
+  left: 45%;
+  min-width: 200px;
+  min-height: 300px;
+  max-width: 300px;
+  max-height: 400px;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+label{
+  font-size: 22px;
+  color: #6b220b;
+  margin-right: 10px;
+}
+
+.FilteredQuote{
+  margin-top: 30px;
+}
+
+input{
+  border: none;
+    border-bottom: 0.25vh solid black;
+    background-color: transparent;
+    font-size: 22px;
+    min-width: 50px;
+    max-width: 200px;
+}
+button{
+  margin-left: 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #4f4f2f;
+  border: none;
+  color:#e0c16f;
+  
+
+}
